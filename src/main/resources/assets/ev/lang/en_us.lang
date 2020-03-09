@@ -21,6 +21,13 @@ tile.ev.stripped_jungle_log.name=Stripped Jungle Log
 tile.ev.stripped_acacia_log.name=Stripped Acacia Log
 tile.ev.stripped_dark_oak_log.name=Stripped Dark Oak Log
 
+tile.trapdoor.name=Oak Trapdoor
+tile.ev.birch_trapdoor.name=Birch Trapdoor
+tile.ev.dark_oak_trapdoor.name=Dark Oak Trapdoor
+tile.ev.jungle_trapdoor.name=Jungle Trapdoor
+tile.ev.spruce_trapdoor.name=Spruce Trapdoor
+tile.ev.acacia_trapdoor.name=Acacia Trapdoor
+
 
 # Items
 item.ev.example_item.name=Example Item

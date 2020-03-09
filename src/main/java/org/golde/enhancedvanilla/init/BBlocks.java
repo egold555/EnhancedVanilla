@@ -14,6 +14,7 @@ import org.golde.enhancedvanilla.blocks.decor.BlockBarbedWire;
 import org.golde.enhancedvanilla.blocks.decor.BlockCharredBrick;
 import org.golde.enhancedvanilla.blocks.decor.BlockEnhancedObsidian;
 import org.golde.enhancedvanilla.blocks.decor.BlockStonePath;
+import org.golde.enhancedvanilla.blocks.decor.futuremc.BlockNewTrapdoor;
 import org.golde.enhancedvanilla.blocks.decor.futuremc.BlockStrippedLog;
 import org.golde.enhancedvanilla.init._core.shared.EnumCreativeTab;
 
@@ -44,6 +45,13 @@ public class BBlocks {
 	public static BlockStrippedLog STRIPPED_SPRUCE_LOG;
 	public static BlockStrippedLog STRIPPED_DARK_OAK_LOG;
 	
+	public static BlockNewTrapdoor ACACIA_TRAPDOOR;
+	public static BlockNewTrapdoor JUNGLE_TRAPDOOR;
+	public static BlockNewTrapdoor BIRCH_TRAPDOOR;
+	public static BlockNewTrapdoor SPRUCE_TRAPDOOR;
+	public static BlockNewTrapdoor DARK_OAK_TRAPDOOR;
+	
+	
 	private static List<Block> ALL_BLOCKS = new ArrayList<Block>();
 	
 	@SubscribeEvent
@@ -63,6 +71,12 @@ public class BBlocks {
 		event.getRegistry().register(STRIPPED_OAK_LOG = new BlockStrippedLog("oak"));
 		event.getRegistry().register(STRIPPED_SPRUCE_LOG = new BlockStrippedLog("spruce"));
 		event.getRegistry().register(STRIPPED_DARK_OAK_LOG = new BlockStrippedLog("dark_oak"));
+		
+		event.getRegistry().register(ACACIA_TRAPDOOR = new BlockNewTrapdoor("acacia_trapdoor"));
+		event.getRegistry().register(JUNGLE_TRAPDOOR = new BlockNewTrapdoor("jungle_trapdoor"));
+		event.getRegistry().register(BIRCH_TRAPDOOR = new BlockNewTrapdoor("birch_trapdoor"));
+		event.getRegistry().register(SPRUCE_TRAPDOOR = new BlockNewTrapdoor("spruce_trapdoor"));
+		event.getRegistry().register(DARK_OAK_TRAPDOOR = new BlockNewTrapdoor("dark_oak_trapdoor"));
 		
 		populateAllBlocksArray();
 		

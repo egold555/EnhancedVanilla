@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:planks",
+	  "data": 2
+    }
+  },
+  "result": {
+    "item": "ev:birch_trapdoor",
+    "count": 2
+  }
+}

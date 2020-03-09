@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:planks",
+	  "data": 5
+    }
+  },
+  "result": {
+    "item": "ev:dark_oak_trapdoor",
+    "count": 2
+  }
+}
