@@ -54,9 +54,11 @@ public class StrippedLogHandler {
 			
 			if(block instanceof BlockOldLog) {
 				setBlock(world, pos, state, state.getValue(BlockOldLog.VARIANT));
+				mainHand.damageItem(1, player);
 			}
 			else if(block instanceof BlockNewLog) {
 				setBlock(world, pos, state, state.getValue(BlockNewLog.VARIANT));
+				mainHand.damageItem(1, player);
 			}
 			
 			
