@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=down":  { "model": "ev:block_placer_vertical", "x": 180 },
+        "facing=up":    { "model": "ev:block_placer_vertical" },
+        "facing=north": { "model": "ev:block_placer" },
+        "facing=south": { "model": "ev:block_placer", "y": 180 },
+        "facing=west":  { "model": "ev:block_placer", "y": 270 },
+        "facing=east":  { "model": "ev:block_placer", "y": 90 }
+    }
+}

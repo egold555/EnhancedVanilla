@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ev",
+  "name": "EnhancedVanilla",
+  "description": "Misc stuff for the pack.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Eric Golde"],
+  "credits": "The Forge and FML guys, for making the example I followed. My strange brain for coming up with the ideas for this mod.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": [redstoneflux]
+}
+]

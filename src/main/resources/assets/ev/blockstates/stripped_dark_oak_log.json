@@ -1,0 +1,9 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "axis=y":  { "model": "ev:stripped_dark_oak_log" },
+        "axis=z":   { "model": "ev:stripped_dark_oak_log", "x": 90 },
+        "axis=x":   { "model": "ev:stripped_dark_oak_log", "x": 90, "y": 90 },
+        "axis=none": { "model": "ev:stripped_dark_oak_log" }
+    }
+}

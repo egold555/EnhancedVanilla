@@ -1,0 +1,28 @@
+# Creative Tab
+itemGroup.ev=Enhanced Vanilla
+itemGroup.evDebug=Enhanced Vanilla (Debug)
+
+# Blocks
+tile.ev.example_block.name=Example Block
+tile.ev.barbed_wire.name=Barbed Wire
+tile.ev.charred_brick.name=Charred Brick
+tile.ev.stone_path.name=Stone Path
+
+tile.ev.enhanced_obsidian.name=Enhanced Obsidian
+
+tile.ev.block_breaker.name=Block Breaker
+tile.ev.block_placer.name=Block Placer
+tile.ev.vacuum_hopper.name=Vacuum Hopper
+
+tile.ev.stripped_oak_log.name=Stripped Oak Log
+tile.ev.stripped_spruce_log.name=Stripped Spruce Log
+tile.ev.stripped_birch_log.name=Stripped Birch Log
+tile.ev.stripped_jungle_log.name=Stripped Jungle Log
+tile.ev.stripped_acacia_log.name=Stripped Acacia Log
+tile.ev.stripped_dark_oak_log.name=Stripped Dark Oak Log
+
+
+# Items
+item.ev.example_item.name=Example Item
+item.ev.item_magnet.name=Item Magnet
+item.ev.wrench.name=Wrench

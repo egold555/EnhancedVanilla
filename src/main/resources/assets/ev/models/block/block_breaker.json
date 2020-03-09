@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "ev:blocks/machine_base",
+        "front": "ev:blocks/machine_front",
+        "side": "ev:blocks/block_breaker"
+    }
+}

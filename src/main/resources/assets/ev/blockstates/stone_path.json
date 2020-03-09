@@ -1,0 +1,14 @@
+{
+    "variants": {
+        "normal": [
+            {"model": "ev:stone_path_1_pre"},
+            {"model": "ev:stone_path_1_pre", "y": 90},
+            {"model": "ev:stone_path_1_pre", "y": 180},
+            {"model": "ev:stone_path_1_pre", "y": 270},
+            {"model": "ev:stone_path_2_pre"},
+            {"model": "ev:stone_path_2_pre", "y": 90} ,
+            {"model": "ev:stone_path_2_pre", "y": 180},
+            {"model": "ev:stone_path_2_pre", "y": 270}  
+        ]
+    }
+}

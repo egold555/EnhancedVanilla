@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+		{"item": "minecraft:obsidian"},
+		{"item": "minecraft:obsidian"},
+		{"item": "minecraft:obsidian"},
+		{"item": "minecraft:iron_ingot"}
+    ],
+    "result":
+    {
+        "item": "ev:enhanced_obsidian",
+        "count": 1
+    }
+}
