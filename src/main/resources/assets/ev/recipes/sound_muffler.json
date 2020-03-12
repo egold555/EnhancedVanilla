@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WNW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wool",
+	  "data": 0
+    },
+	"N": {
+      "item": "minecraft:noteblock"
+    }
+  },
+  "result": {
+    "item": "ev:sound_muffler",
+    "count": 1
+  }
+}

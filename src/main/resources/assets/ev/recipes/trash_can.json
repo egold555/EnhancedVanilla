@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "CHC",
+    "CCC"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone",
+	  "data": 0
+    },
+	"C": {
+      "item": "minecraft:cobblestone"
+    },
+    "H": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "ev:trash_can",
+    "count": 1
+  }
+}
