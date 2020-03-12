@@ -1,4 +1,6 @@
-package org.golde.enhancedvanilla.blocks.blockbreaker;
+package org.golde.enhancedvanilla.client.gui.blocks.blockplacer;
+
+import org.golde.enhancedvanilla.blocks.blockplacer.TileEntityBlockPlacer;
 
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.GlStateManager;
@@ -9,7 +11,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 @SideOnly(Side.CLIENT)
-public class GuiBlockBreaker extends GuiContainer {
+public class GuiBlockPlacer extends GuiContainer {
 
 
 	private static final ResourceLocation DISPENSER_GUI_TEXTURES = new ResourceLocation("textures/gui/container/dispenser.png");
@@ -18,8 +20,8 @@ public class GuiBlockBreaker extends GuiContainer {
 	/** The inventory contained within the corresponding Dispenser. */
 	public IInventory dispenserInventory;
 
-	public GuiBlockBreaker(InventoryPlayer playerInv, TileEntityBlockBreaker dispenserInv) {
-		super(new ContainerBlockBreaker(playerInv, dispenserInv));
+	public GuiBlockPlacer(InventoryPlayer playerInv, TileEntityBlockPlacer dispenserInv) {
+		super(new ContainerBlockPlacer(playerInv, dispenserInv));
 		this.playerInventory = playerInv;
 		this.dispenserInventory = dispenserInv;
 	}

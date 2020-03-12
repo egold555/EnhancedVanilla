@@ -1,5 +1,7 @@
-package org.golde.enhancedvanilla.blocks.blockbreaker;
+package org.golde.enhancedvanilla.client.gui.blocks.blockbreaker;
 
+
+import org.golde.enhancedvanilla.blocks.blockbreaker.TileEntityBlockBreaker;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;

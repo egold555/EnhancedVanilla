@@ -9,10 +9,11 @@ tile.ev.charred_brick.name=Charred Brick
 tile.ev.stone_path.name=Stone Path
 
 tile.ev.enhanced_obsidian.name=Enhanced Obsidian
+tile.ev.sound_muffler.name=Sound Muffler
+tile.ev.trash_can.name=Trash Can
 
 tile.ev.block_breaker.name=Block Breaker
 tile.ev.block_placer.name=Block Placer
-tile.ev.vacuum_hopper.name=Vacuum Hopper
 
 tile.ev.stripped_oak_log.name=Stripped Oak Log
 tile.ev.stripped_spruce_log.name=Stripped Spruce Log

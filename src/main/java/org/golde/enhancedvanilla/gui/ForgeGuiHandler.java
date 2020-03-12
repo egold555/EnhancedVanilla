@@ -1,11 +1,14 @@
 package org.golde.enhancedvanilla.gui;
 
-import org.golde.enhancedvanilla.blocks.blockbreaker.ContainerBlockBreaker;
-import org.golde.enhancedvanilla.blocks.blockbreaker.GuiBlockBreaker;
 import org.golde.enhancedvanilla.blocks.blockbreaker.TileEntityBlockBreaker;
-import org.golde.enhancedvanilla.blocks.blockplacer.ContainerBlockPlacer;
-import org.golde.enhancedvanilla.blocks.blockplacer.GuiBlockPlacer;
 import org.golde.enhancedvanilla.blocks.blockplacer.TileEntityBlockPlacer;
+import org.golde.enhancedvanilla.blocks.trashcan.TileEntityTrashCan;
+import org.golde.enhancedvanilla.client.gui.blocks.ContainerTrashCan;
+import org.golde.enhancedvanilla.client.gui.blocks.GuiTrashCan;
+import org.golde.enhancedvanilla.client.gui.blocks.blockbreaker.ContainerBlockBreaker;
+import org.golde.enhancedvanilla.client.gui.blocks.blockbreaker.GuiBlockBreaker;
+import org.golde.enhancedvanilla.client.gui.blocks.blockplacer.ContainerBlockPlacer;
+import org.golde.enhancedvanilla.client.gui.blocks.blockplacer.GuiBlockPlacer;
 
 import net.minecraft.client.multiplayer.WorldClient;
 import net.minecraft.entity.player.EntityPlayer;
@@ -18,6 +21,7 @@ public class ForgeGuiHandler implements IGuiHandler {
 
 	public static final int GUI_INDEX_BLOCK_PLACER = 0;
 	public static final int GUI_INDEX_BLOCK_BREAKER = 1;
+	public static final int GUI_INDEX_TRASH_CAN = 2;
 
 	//Returns Containers
 	@Override
@@ -36,6 +40,10 @@ public class ForgeGuiHandler implements IGuiHandler {
 		
 		if (te instanceof TileEntityBlockPlacer) {
 			return new ContainerBlockPlacer(player.inventory, (TileEntityBlockPlacer) te);
+		}
+		
+		if (te instanceof TileEntityTrashCan) {
+			return new ContainerTrashCan(player);
 		}
 
 
@@ -60,6 +68,10 @@ public class ForgeGuiHandler implements IGuiHandler {
 			
 			else if (te instanceof TileEntityBlockPlacer) {
 				return new GuiBlockPlacer(player.inventory, (TileEntityBlockPlacer) te);
+			}
+			
+			else if (te instanceof TileEntityTrashCan) {
+				return new GuiTrashCan(player.inventory);
 			}
 
 		}

@@ -1,4 +1,6 @@
-package org.golde.enhancedvanilla.blocks.blockplacer;
+package org.golde.enhancedvanilla.client.gui.blocks.blockplacer;
+
+import org.golde.enhancedvanilla.blocks.blockplacer.TileEntityBlockPlacer;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;

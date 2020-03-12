@@ -16,6 +16,8 @@ import org.golde.enhancedvanilla.blocks.decor.BlockEnhancedObsidian;
 import org.golde.enhancedvanilla.blocks.decor.BlockStonePath;
 import org.golde.enhancedvanilla.blocks.decor.futuremc.BlockNewTrapdoor;
 import org.golde.enhancedvanilla.blocks.decor.futuremc.BlockStrippedLog;
+import org.golde.enhancedvanilla.blocks.soundmuffler.BlockSoundMuffler;
+import org.golde.enhancedvanilla.blocks.trashcan.BlockTrashCan;
 import org.golde.enhancedvanilla.init._core.shared.EnumCreativeTab;
 
 import net.minecraft.block.Block;
@@ -51,6 +53,9 @@ public class BBlocks {
 	public static BlockNewTrapdoor SPRUCE_TRAPDOOR;
 	public static BlockNewTrapdoor DARK_OAK_TRAPDOOR;
 	
+	public static BlockSoundMuffler soundMuffler;
+	public static BlockTrashCan trashCan;
+	
 	
 	private static List<Block> ALL_BLOCKS = new ArrayList<Block>();
 	
@@ -77,6 +82,10 @@ public class BBlocks {
 		event.getRegistry().register(BIRCH_TRAPDOOR = new BlockNewTrapdoor("birch_trapdoor"));
 		event.getRegistry().register(SPRUCE_TRAPDOOR = new BlockNewTrapdoor("spruce_trapdoor"));
 		event.getRegistry().register(DARK_OAK_TRAPDOOR = new BlockNewTrapdoor("dark_oak_trapdoor"));
+		
+		event.getRegistry().register(soundMuffler = new BlockSoundMuffler());
+		event.getRegistry().register(trashCan = new BlockTrashCan());
+		
 		
 		populateAllBlocksArray();
 		
