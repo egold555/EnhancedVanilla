@@ -2,15 +2,15 @@
 	"forge_marker": 1,
 	"defaults": {
 		"textures": {
-			"all": "ev:blocks/trash_can"
+			
 		}
 	},
 	"variants": {
 		"normal": {
-			"model": "cube_all"
+			"model": "ev:trash_can"
 		},
 		"inventory": {
-			"model": "cube_all"
+			"model": "ev:trash_can"
 		}
 	}
 }

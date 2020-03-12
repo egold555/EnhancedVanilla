@@ -16,7 +16,7 @@ import net.minecraft.world.World;
 public class BlockTrashCan extends _BBlockWithTE<TileEntityTrashCan> {
 
 	public BlockTrashCan() {
-		super("trash_can", Material.IRON, EnumCreativeTab.UNFINISHED);
+		super("trash_can", Material.IRON, EnumCreativeTab.FINISHED);
 		setGuiId(ForgeGuiHandler.GUI_INDEX_TRASH_CAN);
 	}
 
@@ -29,5 +29,17 @@ public class BlockTrashCan extends _BBlockWithTE<TileEntityTrashCan> {
 	public TileEntityTrashCan createTileEntity(World world, IBlockState state) {
 		return new TileEntityTrashCan();
 	}
+	
+	@Override
+	public boolean isFullCube(IBlockState state)
+    {
+        return false;
+    }
+	
+	@Override
+	public boolean isOpaqueCube(IBlockState state)
+    {
+        return false;
+    }
 
 }
